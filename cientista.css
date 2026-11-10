@@ -7,7 +7,20 @@
 body{
     background-color: #121212;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
+}
+
+header {
+    text-align: center;
+}
+li, .nav {
+    color:#ccc;
+    text-shadow: 4px 2px 4px black;
+    text-decoration: none;
+    display:inline;
+}
+.nav:hover {
+    text-decoration: underline;
+    color: #ccc;
 }
 
 div{
