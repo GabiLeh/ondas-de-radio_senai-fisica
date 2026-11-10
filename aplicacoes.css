@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url(fundo-abstrato-com-design-de-ondas-sonoras_1048-13219.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    text-align: center;
+}
+li, a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display:inline;
+}
+h1 {
+    color: rgb(248, 129, 226);
+}
+img {
+    width: 10%;
+    height: 25%;
+    position: fixed; bottom: 0; left: 0;
+}
