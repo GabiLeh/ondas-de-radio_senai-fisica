@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(223, 248, 238);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    border: 4px;
+}
+.box-imagem {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+img {
+    width: 450px;            
+    height: auto;
+}
+
+.container{
+    padding: 50px;
+}
+
+.Hertz{
+    padding: 50px;
+}
