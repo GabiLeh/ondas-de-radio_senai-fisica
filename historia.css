@@ -1,6 +1,5 @@
 body{
-    background: #c1d2e0;
-    background: radial-gradient(circle, rgba(193, 210, 224, 1) 49%, rgba(142, 145, 145, 1) 100%);
+    background: #121212;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -10,55 +9,40 @@ header{
   align-items: center;      
   height: 80px;  
   font-family: Georgia, 'Times New Roman', Times, serif;   
-  background: #3f3f51;  
+
 }
 p{
-    border: 4px;
-}
-.box-imagem {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-}
-
-img {
-    width: 450px;            
-    height: auto;
-}
-
-.container{
-    padding: 50px;
-    letter-spacing: 1px;
-    font-size: large;
-}
-
-.Hertz{
     padding: 50px;
   letter-spacing: 1px;
   font-size: large; 
+  color: #ccc;
 
 }
-.legenda{
-    padding: 50px;
-    font-size: large;
-    letter-spacing: 1px;
-}
-.imagem-experimento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.telegrafo_sem_fio {
-    padding: 50px;
-    letter-spacing: 1px;
-    font-size: large; 
-}
-.telegrafo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color:#ccc
+}
+div {
+    background-color: #202124;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    letter-spacing: 1px;
+    font-size: large; 
+    color: #ccc;
+}
+img{
+     padding: 50px;
+    letter-spacing: 1px;
+    font-size: large; 
+    color: #ccc;
+    width: 450px;            
+    height: auto;
 }
