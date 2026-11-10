@@ -10,6 +10,21 @@ body{
     padding: 30px;
 }
 
+header {
+    text-align: center;
+    margin-top: 20%;
+}
+li, .nav {
+    color:#ccc;
+    text-shadow: 4px 2px 4px black;
+    text-decoration: none;
+    display:inline;
+}
+.nav:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+
 div{
     background-color: #202124;
     max-width: 900px;
