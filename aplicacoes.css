@@ -8,7 +8,7 @@ html {
 }
 body {
     background-image: url(fundo-abstrato-com-design-de-ondas-sonoras_1048-13219.avif);
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     background-size: cover;
 }
 header {
@@ -29,4 +29,19 @@ img {
 }
 a:hover {
     text-decoration: underline;
+}
+div{
+    background-color: #916c96ca;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h1 {
+    color: #E0E0E0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: larger;
 }
